@@ -20,10 +20,17 @@
 
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   .intro__text{
     width: 690px;
-    margin-top: 40px;
+    margin: 40px 24px 0;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .intro__text{
+  width: 690px;
+  margin: 40px 0 0;
   }
 }
 
