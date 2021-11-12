@@ -3,7 +3,7 @@
   background-image: url(../../../images/lead-polka.jpg);
   width: 100%;
   padding-bottom: 62.5%;
-  background-size: contain;
+  background-size: cover;
   box-sizing: border-box;
 }
 
