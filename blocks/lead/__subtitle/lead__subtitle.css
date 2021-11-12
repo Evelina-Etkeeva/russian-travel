@@ -5,13 +5,26 @@
   color: white;
   align-self: center;
   text-align: center;
+  justify-self: center;
+  max-width: 640px;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 520px) {
   .lead__subtitle{
     font-size: 16px;
     line-height: 1.25;
     margin: 16px 0 0;
+    max-width: 320px;
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 768px) {
+  .lead__subtitle{
+    font-size: 28px;
+    line-height: 1.25;
+    margin: 16px 0 0;
+    max-width: 524px;
   }
 }
 

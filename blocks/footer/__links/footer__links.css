@@ -1,0 +1,18 @@
+.footer__links{
+  /*display: flex;
+  flex-direction: row;*/
+  padding: 0;
+  box-sizing: border-box;
+  /*justify-content: start;*/
+
+  display: grid;
+  grid-template-columns: repeat(5, max-content); /* почему-то хром не пропускает параметры ауто-фит*/
+  gap: 18px;
+}
+
+@media  screen and (max-width: 768px) {
+  .footer__links{
+    grid-template-columns: repeat(1, max-content);
+    gap: 32px;
+  }
+}

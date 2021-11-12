@@ -4,6 +4,7 @@
   font-weight: 900;
   color:white;
   margin: 0;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {

@@ -9,6 +9,7 @@
   font-size: 12px;
   line-height: 18px;
   margin-top: 33px;
+  box-sizing: border-box;
 }
 
 
@@ -26,7 +27,7 @@
 
 @media screen and (min-width: 1280px){
   .intro__list{
-  margin-left: 0 ;
+    margin-left: 0 ;
   }
 }
 

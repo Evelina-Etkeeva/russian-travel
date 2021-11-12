@@ -2,33 +2,37 @@
   display: grid;
   grid-template-columns: minmax(min-content, max-content);
   margin: auto;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px){
   .intro{
-    max-width: 768px;
+    grid-template-columns: minmax(min-content, 768px);
     margin: 64px auto 0;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
   .intro{
-    max-width: 928px;
-    margin: 80px auto 0;
+    grid-template-columns: minmax(768px , 928px);
+
+    margin: 88px auto 0;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px){
   .intro{
-    max-width: 984px;
+    grid-template-columns: minmax(928px, 984px);
+
     margin: 92px auto 0;
   }
 }
 
 @media screen and (min-width: 1280px){
   .intro{
-    max-width: 984px;
-    margin: 84px auto 0; /*должно быть 92, но так лучше смотрится в пиксельперфект-е*/
+    grid-template-columns: 984px;
+    margin: 92px auto 0; /*должно быть 92, но так лучше смотрится в пиксельперфект-е*/
   }
 }
 
