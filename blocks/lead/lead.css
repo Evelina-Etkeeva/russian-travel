@@ -6,7 +6,7 @@
 }
 @media screen and (max-width: 1024px){
   .lead{
-    grid-template-columns: minmax(320px , 928px)
+    grid-template-columns: minmax(320px , 928px);
   }
 }
 

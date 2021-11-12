@@ -24,7 +24,7 @@
 
     column-gap: 28px;
 
-    grid-template-columns: minmax(340px, 1fr) minmax(352px, 1fr) ;
+    grid-template-columns: minmax(340px, 1fr) minmax(352px, 1fr);
     grid-template-areas:
     "title link"
     "image text";
