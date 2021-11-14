@@ -1,9 +1,11 @@
 .intro{
   display: grid;
   grid-template-columns: minmax(min-content, max-content);
-  margin: auto;
+  margin: 0 auto;
   justify-content: center;
   box-sizing: border-box;
+  width: 100%;
+  max-width: 1184px;
 }
 
 @media screen and (max-width: 768px){

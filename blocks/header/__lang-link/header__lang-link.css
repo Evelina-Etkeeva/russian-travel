@@ -1,13 +1,14 @@
 .header__lang-link{
   color: white;
-  font-family: 'Inter';
+  font-family: Inter, 'arial', sans-serif;
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
+  transition: opacity .5s;
 }
 
-.header__lang-link:active{
-  text-decoration: underline;
+.header__lang-link:hover{
+  opacity: 80%;
 }
 
 @media screen and (max-width: 768px) {

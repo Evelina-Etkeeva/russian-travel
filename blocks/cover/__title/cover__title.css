@@ -1,5 +1,5 @@
 .cover__title{
-  font-family: Inter;
+  font-family: Inter, 'arial', sans-serif;
   font-style: normal;
   font-weight: 900;
   text-align: center;
@@ -9,6 +9,7 @@
   justify-self: center;
   margin: 0;
   position: relative;
+  grid-area: title;
 }
 
 @media screen and (max-width: 500px) {
