@@ -34,7 +34,12 @@
     grid-template-areas: "links copyright";
   }
 }
-
+@media screen and (min-width: 1280px) {
+  .footer{
+    align-items: end;
+    grid-template-areas: "links copyright";
+  }
+}
 
 
 
